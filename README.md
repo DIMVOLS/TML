@@ -108,13 +108,23 @@
 где ![alt text](https://latex.codecogs.com/gif.latex?K_Q) — квартическое ядро, ![alt text](https://latex.codecogs.com/gif.latex?med\left&space;(&space;\varepsilon_i&space;\right&space;)) — медиана вариационного ряда ошибок.
 
 
- Примеры работ алгоритмов:
+Примеры реализации алгоритмов:
+### KNN
 <p><img src="img/knn.png" ></p>
+### Naive-Bayes
 <p><img src="img/Naiv.png" ></p>
+### Plug-in
 <p><img src="img/Pl.png" ></p>
+### Линейная Регрессия
 <p><img src="img/Lin.png" ></p>
+### Линейные классификаторы
 <p><img src="img/LR.png" ></p>
+### LOWESS & Nadaray-Watson
 <p><img src="img/LW.png" ></p>
+### Решающие деревья
+<p><img src="img/Tree.png" ></p>
+### Сравнение Линейной и Нелинейной Регрессии
+<p><img src="img/Line.png" ></p>
 
 
 
