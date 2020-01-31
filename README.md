@@ -123,31 +123,7 @@ def a_h(self, x):
 
 где ![alt text](https://latex.codecogs.com/gif.latex?K_Q) — квартическое ядро, ![alt text](https://latex.codecogs.com/gif.latex?med\left&space;(&space;\varepsilon_i&space;\right&space;)) — медиана вариационного ряда ошибок.
 
-В качестве ядра в реализации использовалось квартическое, определённое ниже:
 
-![alt text](https://latex.codecogs.com/gif.latex?K(x)&space;=&space;(1&space;-&space;x^2)^2[|x|&space;\leq&space;1])
+Задачу обучения по прецедентам при $Y=\mathbb{R}$ принято называть задачей восстановления регрессии. Задано пространство объектов X и множество возможных ответов Y. Существует неизвестная целевая зависимость $y^*:X\rightarrow Y$ , значения которой известны только на объектах обучающей выборки $X^\ell = (x_i, y_i)_{i-1}^\ell, y_i = y^* (x_i)$. Требуется построить алгоритм, который в данной задаче принято называть "функцией регрессии" $a: X^* \rightarrow Y$ , аппроксимирующий целевую зависимость $y^*$.
 
-Сравнительная таблица качества алгоритмов для квартического ядра:
 
-<table>
-   <tr>
-      <td align = center><b>Алгоритм</b></td>
-      <td align = center><b>LOO_min</b></td>
-      <td align = center><b>h_opt</b></td>
-      <td align = center><b>SSE</b></td>
-   </tr>
-   
-   <tr>
-      <td align = center><b>Формула Надарая-Ватсона</b></td>
-      <td align = center>1003,964</td>
-      <td align = center>2,32</td>
-      <td align = center>989,161</td>
-   </tr>
-    <tr>
-      <td align = center><b>LOWESS</b></td>
-      <td align = center>969,613</td>
-      <td align = center>2,98</td>
-      <td align = center>730,761</td>
-   </tr>
- </table>
- 
