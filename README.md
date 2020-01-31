@@ -111,9 +111,9 @@
  Примеры работ алгоритмов:
 <p><img src="img/knn.png" ></p>
 <p><img src="img/Naiv.png" ></p>
+<p><img src="img/Pl.png" ></p>
 <p><img src="img/Lin.png" ></p>
 <p><img src="img/LR.png" ></p>
-<p><img src="img/Pl.png" ></p>
 <p><img src="img/LW.png" ></p>
 
 
