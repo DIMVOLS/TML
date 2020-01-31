@@ -125,7 +125,7 @@ def a_h(self, x):
 
 
  Примеры работ алгоритмов:
-![alt text](https://github.com/Mikel4u4u/TML/knnpng)
+![alt text](https://github.com/Dimitridze/TML/knn.png)
 ![alt text](https://github.com/Mikel4u4u/TML/Naiv.png)
 ![alt text](https://github.com/Mikel4u4u/TML/Lin.png)
 ![alt text](https://github.com/Mikel4u4u/TML/LR.png)
