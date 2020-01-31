@@ -47,23 +47,6 @@
 
 В качестве тестовой выборки был взят набор данных *Boston*, в котором нужно предсказать стоимость жилья на основе различных характеристик его расположения (загрязненность воздуха, близость к дорогам и т.д.). В реализации рассмотрена выборка по 5-му признаку — расположению жилья относительно среднего количества комнат на одно жильё (*RM*).
 
-Ниже представлена реализация метода аппроксимации функции регрессии в одной точке выборки:
-
-```python
-def a_h(self, x):
-    numerator = 0
-    denominator = 0
-    for i in range(self.X.shape[0]):
-        numerator = numerator + self.Y[i] * self.core(self._dist(x, self.X[i]) / self.h)
-        denominator = denominator + self.core(self._dist(x, self.X[i]) / self.h)
-    if denominator == 0:
-        alpha = 0
-        return alpha
-    else:
-        alpha = numerator / denominator
-        return alpha
-```
-
 В качестве ядер в реализации использовались квартическое и гауссовское, определённые ниже соответственно:
 
 ![alt text](https://latex.codecogs.com/gif.latex?K(x)&space;=&space;(1&space;-&space;x^2)^2[|x|&space;\leq&space;1])
@@ -93,6 +76,7 @@ def a_h(self, x):
       <td align = center>17317</td>
    </tr>
  </table>
+ 
 ### LOWESS — локально взвешенное сглаживание
 
 Оценка Надарая-Ватсона чувствительна к большим одиночным выбросам. Для нахождения выбросов вычисляется *величина ошибки* ![alt text](https://latex.codecogs.com/gif.latex?\varepsilon_i&space;=&space;|a_h(x_i;&space;X^l&space;\setminus&space;\left&space;\{&space;x_i&space;\right&space;\})-y_i|). Чем она больше, тем в большей степени прецедент ![alt text](https://latex.codecogs.com/gif.latex?(x_i,&space;y_i)) является выбросом. Следовательно, таким прецедентам нужно понизить вес.
