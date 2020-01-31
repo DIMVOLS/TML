@@ -109,12 +109,12 @@
 
 
  Примеры работ алгоритмов:
-<p><img src="knn.png" ></p>
-<p><img src="Naiv.png" ></p>
-<p><img src="Lin.png" ></p>
-<p><img src="LR.png" ></p>
-<p><img src="Pl.png" ></p>
-<p><img src="LW.png" ></p>
+<p><img src="img/knn.png" ></p>
+<p><img src="img/Naiv.png" ></p>
+<p><img src="img/Lin.png" ></p>
+<p><img src="img/LR.png" ></p>
+<p><img src="img/Pl.png" ></p>
+<p><img src="img/LW.png" ></p>
 
 
 
