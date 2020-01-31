@@ -109,21 +109,37 @@
 
 
 Примеры реализации алгоритмов:
+
 ### KNN
+
 <p><img src="img/knn.png" ></p>
+
 ### Naive-Bayes
+
 <p><img src="img/Naiv.png" ></p>
+
 ### Plug-in
+
 <p><img src="img/Pl.png" ></p>
-### Линейная Регрессия
+
+###  Линейные классификаторы
+
 <p><img src="img/Lin.png" ></p>
-### Линейные классификаторы
+
+### Линейная регрессия
+
 <p><img src="img/LR.png" ></p>
+
 ### LOWESS & Nadaray-Watson
+
 <p><img src="img/LW.png" ></p>
+
 ### Решающие деревья
+
 <p><img src="img/Tree.png" ></p>
+
 ### Сравнение Линейной и Нелинейной Регрессии
+
 <p><img src="img/Line.png" ></p>
 
 
