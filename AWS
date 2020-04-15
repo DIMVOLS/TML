@@ -1,3 +1,8 @@
+#Setting up AWS command line interface
+#To be able to interact with AWS Comprehend APiyou will need to dowload the AWS command line interface (CLI) and configure it using your previously stored credentials. ( more on this under https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
+#Using the Python API
+#The boto3 library is the is the Amazon Web Services (AWS) SDK for Python. So first import the library
+
 import boto3
 
 #Then you instantiate a comprehend object with ‘comprehend’ as parameter for the boto3.client call
